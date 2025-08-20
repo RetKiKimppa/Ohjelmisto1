@@ -1,6 +1,7 @@
 import random
 import math
 
+# Ois voinu tehdä ehkä lyhyemmin mutta toimii
 
 yksi = random.randint(0, 9)
 kaksi = random.randint(0, 9)
