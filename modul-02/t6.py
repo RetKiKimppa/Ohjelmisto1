@@ -1,6 +1,7 @@
 import random
 import math
 
+
 yksi = random.randint(0, 9)
 kaksi = random.randint(0, 9)
 kolme = random.randint(0, 9)
