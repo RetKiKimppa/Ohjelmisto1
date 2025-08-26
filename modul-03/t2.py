@@ -1,4 +1,4 @@
-hyttiluokka = input("Anna hyttiluokkasi: ")
+hyttiluokka = input("Anna hyttiluokkasi (LUX, A, B, C) : ")
 
 if hyttiluokka == "LUX":
     print("LUX on parvekkeellinen hytti yläkannella.")
