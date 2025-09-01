@@ -1,7 +1,6 @@
 import random
 luku = random.randint(1, 10)
 
-
 while True:
     arvaus = float(input("Anna luku väliltä 1-10: "))
     if arvaus > luku:
