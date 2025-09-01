@@ -1,6 +1,6 @@
 import random
 
-N = int(input("Kuinka monta pistettä arvotaan? "))
+N = int(input("Monta pistettä arvotaan? "))
 n = 0
 kerrat = 0
 
