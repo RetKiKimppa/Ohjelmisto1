@@ -1,5 +1,10 @@
+import random
 arpakuutio = int(input("Anna arpakuutioiden määrä: "))
 
-for luku in range():
-    luku = random.randint(1, 6)
+summa = 0
 
+for luku in range(arpakuutio):
+    luku = random.randint(1, 6)
+    summa += luku
+
+print(summa)
