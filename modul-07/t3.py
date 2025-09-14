@@ -19,6 +19,7 @@ while True:
             print("Kyseisellä ICAO-koodilla ei löytynyt lentoasemia.")
 
     elif ohjelma == "lopeta":
+        print("Ohjelma lopetettu.")
         break
 
     else:
