@@ -15,7 +15,7 @@ def main():
     yksikko1 = pizzalaskuri(ekakoko, ekahinta)
     yksikko2 = pizzalaskuri(tokakoko, tokahinta)
 
-    print(f"Esimmäisen pizzan hinta on {yksikko1:.2f} €/m2")
+    print(f"Ensimmäisen pizzan hinta on {yksikko1:.2f} €/m2")
     print(f"Toisen pizzan hinta on {yksikko2:.2f} €/m2")
 
     if yksikko1 > yksikko2:
