@@ -1,16 +1,16 @@
 import mysql.connector
 
 yhteys = mysql.connector.connect(
-    host="127.0.0.1",
+    host="localhost",
     port=3306,
-    database="",
+    database="flight_game",
     user="root",
     password="1202",
     autocommit=True
 )
 
 def lentokenttahaku():
-    sql = "SELECT * FROM flight_game "
+    sql = "SELECT * FROM game "
     kursori = yhteys.cursor()
     kursori.execute(sql)
     tulos = kursori.fetchall()
