@@ -24,4 +24,4 @@ def lentokenttahaku(icao):
 
 lentokenttahaku("EFHK")
 
-#KESKEN
+#KESKE
