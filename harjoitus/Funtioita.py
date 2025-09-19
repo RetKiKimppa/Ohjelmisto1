@@ -17,7 +17,7 @@ def minipeli_trivia():
         else:
             print("Väärä vastaus")
             sakko += 1
-            if sakko == max_sakko:
+            if sakko >= max_sakko:
                 break
     print(f"Tulos: {tulos}/5")
 
