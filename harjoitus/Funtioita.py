@@ -7,7 +7,7 @@ def minipeli_trivia():
         ("Mikä on paras kasino: ", "kasinosetä"),
     ]
     tulos = 0
-    max_sakko =  2
+    max_sakko = 2
     sakko = 0
 
     for kysymys, oikea_vastaus in kysymykset:
