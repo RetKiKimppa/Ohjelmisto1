@@ -15,7 +15,7 @@ def lentokenttahaku(maa):
     tulos = kursori.fetchall()
     if kursori.rowcount > 0:
         for rivi in tulos:
-            print(F"{rivi[0]} {rivi[1]}")
+            print(F"Tyyppi:{rivi[0]} Määrä:{rivi[1]}")
     else:
         print("Tietoja ei löytynyt syötteellä.")
     return
