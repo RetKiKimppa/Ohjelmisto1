@@ -9,8 +9,7 @@ yhteys = mysql.connector.connect(
          )
 
 def lentokenttahaku(icao):
-    sql = f"SELECT name, FROM WHERE ident='{icao}'"
-    print(sql)
+    sql = f"SELECT name FROM airport WHERE ident='{icao}'"
     kursori = yhteys.cursor()
     kursori.execute(sql)
     tulos = kursori.fetchall()
@@ -21,7 +20,7 @@ def lentokenttahaku(icao):
         print("Syötteelläsi ei löytyny tietoja")
     return
 
+haku = input("Anna lentokentän ICAO-koodi, niin näet kentän nimen: ")
+lentokenttahaku(haku)
 
-lentokenttahaku("EFHK")
 
-#KESKEBN
